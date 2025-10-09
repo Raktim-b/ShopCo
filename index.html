@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop.Co</title>
+    <!-- Font Awsome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Vanilla Css -->
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="hdr-sec">
+      <div class="hdr-top">
+        <p>
+          Sign up and get 20% off to your first order.
+          <a href="">Sign Up Now</a>
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-xl">
+        <div class="container">
+          <div class="nav-logo">
+            <a class="navbar-brand" href="index.html"
+              ><img src="./Assets/Logo.png" alt=""
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" id="navbarSupportedContent">
+            <button
+              class="offcanvas-header me-auto mb-4"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark text-black"></i>
+            </button>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Men</a></li>
+                  <li><a class="dropdown-item" href="#">Women</a></li>
+                  <li><a class="dropdown-item" href="#">Kids</a></li>
+                  <li><a class="dropdown-item" href="#">GenZ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">On Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New Arrivals</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link">Brands</a>
+              </li>
+            </ul>
+            <form class="search-form" role="search">
+              <div class="srch-wrpr d-flex align-items-center">
+                <label for="search-input"
+                  ><img src="./Assets/Search-icon.png" alt=""
+                /></label>
+                <input
+                  class="form-control"
+                  id="search-input"
+                  type="search"
+                  placeholder="Search for products..."
+                  aria-label="Search"
+                />
+              </div>
+            </form>
+            <div class="nav-icons ms-auto">
+              <ul class="d-flex list-unstyled align-items-center">
+                <li class="icon-item">
+                  <a href="" class="icon-links"
+                    ><img src="./Assets/Cart-icon.png" alt=""
+                  /></a>
+                </li>
+                <li class="icon-item">
+                  <a
+                    class="icon-links dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    ><img src="./Assets/User-icon.png" alt=""
+                  /></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Orders</a></li>
+                    <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                    <li><a class="dropdown-item" href="#">Coupons</a></li>
+                    <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                    <li class="mt-2">
+                      <a
+                        href=""
+                        class="dropdown-item dropdown-btn btn-primary rounded-2"
+                        >LogIn/SignUp</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner Section -->
+      <section class="banner-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="banner-cntn">
+                <h1 class="title1">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p>
+                  Browse through our diverse range of meticulously crafted
+                  garments, designed to bring out your individuality and cater
+                  to your sense of style.
+                </p>
+                <div class="banner-btn">
+                  <a href="" class="btn-primary rounded-2">Shop Now</a>
+                </div>
+                <ul class="stats-list d-flex">
+                  <li class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">International Brands</div>
+                  </li>
+                  <li class="stat-item">
+                    <div class="stat-number">2,000+</div>
+                    <div class="stat-label">High-Quality Products</div>
+                  </li>
+                  <li class="stat-item">
+                    <div class="stat-number">30,000+</div>
+                    <div class="stat-label">Happy Customers</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="star-wrpr">
+                <div class="small-star">
+                  <img src="./Assets/Small-star.png" alt="" />
+                </div>
+                <div class="big-star">
+                  <img src="./Assets/Big-star.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Ad Section -->
+      <section class="ad-sec">
+        <div class="container">
+          <div class="marquee">
+            <div class="marquee__inner">
+              <div class="marquee__group">
+                <img src="./Assets/Varsace.png" alt="" class="var-img" />
+                <img src="./Assets/Zara.png" alt="" class="zara-img" /><img
+                  src="./Assets/Gucci.png"
+                  alt=""
+                  class="gucci-img"
+                />
+                <img src="./Assets/Prada.png" alt="" class="prada-img" /><img
+                  src="./Assets/Calvin Klein.png"
+                  alt=""
+                  class="cal-img"
+                />
+              </div>
+
+              <div class="marquee__group">
+                <img src="./Assets/Varsace.png" alt="" class="var-img" />
+                <img src="./Assets/Zara.png" alt="" class="zara-img" /><img
+                  src="./Assets/Gucci.png"
+                  alt=""
+                  class="gucci-img"
+                />
+                <img src="./Assets/Prada.png" alt="" class="prada-img" /><img
+                  src="./Assets/Calvin Klein.png"
+                  alt=""
+                  class="cal-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- New Arrival Section -->
+      <section class="new-sec">
+        <div class="container">
+          <div class="news-hdr text-center">
+            <h2 class="title2">NEW ARRIVALS</h2>
+          </div>
+          <div class="new-cntn">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img1.png" alt="" />
+                  </figure>
+                  <h3 class="title3">T-shirt with Tape Details</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price">$120</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img2.png" alt="" />
+                  </figure>
+                  <h3 class="title3">Skinny Fit Jeans</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span class="rating">3.5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $240
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$260</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-20%</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img3.png" alt="" />
+                  </figure>
+                  <h3 class="title3">Checkred Shirt</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price">$180</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img4.png" alt="" />
+                  </figure>
+                  <h3 class="title3">T-shirt with Tape Details</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $130
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$160</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-30%</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="new-btn">
+                <a href="" class="btn-secondary">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top Section -->
+      <section class="top-sec">
+        <div class="container">
+          <div class="top-hdr text-center">
+            <h2 class="title2">TOP SELLING</h2>
+          </div>
+          <div class="new-cntn">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img1.png" alt="" />
+                  </figure>
+                  <h3 class="title3">Vertical Striped Shirt</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <span>5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $212
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$232</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-20%</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img2.png" alt="" />
+                  </figure>
+                  <h3 class="title3">Courage Graphic T-Shirt</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <span class="rating">4/5</span>
+                  </ul>
+                  <div class="price">$145</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img3.png" alt="" />
+                  </figure>
+                  <h3 class="title3">Loose Fit Bermuda Shorts</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+
+                    <span>3/5</span>
+                  </ul>
+                  <div class="price">$80</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img4.png" alt="" />
+                  </figure>
+                  <h3 class="title3">Faded Skinny Jeans</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price">$210</div>
+                </div>
+              </div>
+              <div class="new-btn">
+                <a href="" class="btn-secondary">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Browse Section -->
+      <section class="browse-sec">
+        <div class="container">
+          <div class="browse-wrpr">
+            <div class="browse-hdr text-center">
+              <h2 class="title2">BROWSE BY DRESS STYLE</h2>
+            </div>
+            <div class="browse-cntn">
+              <div class="row">
+                <div class="col12 col-md-5">
+                  <div class="browse-card-wrpr casual-sec"><p>Casual</p></div>
+                </div>
+                <div class="col12 col-md-7">
+                  <div class="browse-card-wrpr formal-sec"><p>Formal</p></div>
+                </div>
+                <div class="col12 col-md-7">
+                  <div class="browse-card-wrpr party-sec"><p>Party</p></div>
+                </div>
+                <div class="col12 col-md-5">
+                  <div class="browse-card-wrpr gym-sec"><p>Gym</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Customer Section -->
+      <section class="custom-sec">
+        <div class="container custom-container">
+          <div class="custom-hdr">
+            <h2 class="title2">OUR HAPPY CUSTOMERS</h2>
+          </div>
+          <div class="row custom-row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="custom-card">
+                <ul class="d-flex gap-1">
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                </ul>
+                <h3 class="title3">
+                  Sarah M.
+                  <span class="green-tick"
+                    ><img src="./Assets/Green-tick.png" alt=""
+                  /></span>
+                </h3>
+                <p>
+                  "I'm blown away by the quality and style of the clothes I
+                  received from Shop.co. From casual wear to elegant dresses,
+                  every piece I've bought has exceeded my expectations.”
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="custom-card d-block w-100">
+                <ul class="d-flex gap-1">
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                </ul>
+                <h3 class="title3">
+                  Alex K.
+                  <span class="green-tick"
+                    ><img src="./Assets/Green-tick.png" alt=""
+                  /></span>
+                </h3>
+                <p>
+                  "Finding clothes that align with my personal style used to be
+                  a challenge until I discovered Shop.co. The range of options
+                  they offer is truly remarkable, catering to a variety of
+                  tastes and occasions.”
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="custom-card d-block w-100">
+                <ul class="d-flex gap-1">
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                </ul>
+                <h3 class="title3">
+                  James L.
+                  <span class="green-tick"
+                    ><img src="./Assets/Green-tick.png" alt=""
+                  /></span>
+                </h3>
+                <p>
+                  "As someone who's always on the lookout for unique fashion
+                  pieces, I'm thrilled to have stumbled upon Shop.co. The
+                  selection of clothes is not only diverse but also on-point
+                  with the latest trends.”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="offer-wrpr d-flex">
+            <div class="offer-cntn">STAY UPTO DATE ABOUT OUR LATEST OFFERS</div>
+            <form action="" class="input-form">
+              <div class="email-wrpr d-flex align-items-center">
+                <label for="email-input"
+                  ><img src="./Assets/Envelope.png" alt=""
+                /></label>
+                <input
+                  id="email-input"
+                  type="email"
+                  placeholder="Enter your email address"
+                  aria-label="Search"
+                />
+              </div>
+              <input
+                type="submit"
+                value="Subscribe to Newsletter"
+                class="btn-secondary input-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Logo -->
+    <footer class="ftr-sec">
+      <div class="container">
+        <div class="ftr-top">
+          <div class="row">
+            <div class="col25">
+              <div class="ftr-logo-sec">
+                <div class="nav-logo ftr-logo">
+                  <a class="navbar-brand" href="index.html"
+                    ><img src="./Assets/Logo.png" alt=""
+                  /></a>
+                </div>
+                <p>
+                  We have clothes that suits your style and which you’re proud
+                  to wear. From women to men.
+                </p>
+                <ul class="scl-list d-flex">
+                  <li class="scl-links">
+                    <a
+                      href=""
+                      class="d-flex align-items-center justify-content-center"
+                      ><img src="./Assets/Twiitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li class="scl-links scl-links-active">
+                    <a
+                      href=""
+                      class="d-flex align-items-center justify-content-center"
+                      ><img src="./Assets/Facebook.png" alt=""
+                    /></a>
+                  </li>
+                  <li class="scl-links">
+                    <a
+                      href=""
+                      class="d-flex align-items-center justify-content-center"
+                      ><img src="./Assets/Insta.png" alt=""
+                    /></a>
+                  </li>
+                  <li class="scl-links">
+                    <a
+                      href=""
+                      class="d-flex align-items-center justify-content-center"
+                      ><img src="./Assets/Gitub.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col16">
+              <div class="ftr-list1">
+                <div class="list-hdr">Company</div>
+                <ul class="ftr-list">
+                  <li class="ftr-links"><a href="">About</a></li>
+                  <li class="ftr-links"><a href="">Features</a></li>
+                  <li class="ftr-links"><a href="">Work</a></li>
+                  <li class="ftr-links"><a href="">Career</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col16">
+              <div class="ftr-list2">
+                <div class="list-hdr">Help</div>
+                <ul class="ftr-list">
+                  <li class="ftr-links"><a href="">Customer Support</a></li>
+                  <li class="ftr-links"><a href="">Delibery Details</a></li>
+                  <li class="ftr-links"><a href="">Terms & Conditions</a></li>
+                  <li class="ftr-links"><a href="">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col25">
+              <div class="ftr-list3">
+                <div class="list-hdr">FAQ</div>
+                <ul class="ftr-list">
+                  <li class="ftr-links"><a href="">Account</a></li>
+                  <li class="ftr-links"><a href="">Manage Deliveries</a></li>
+                  <li class="ftr-links"><a href="">Orders</a></li>
+                  <li class="ftr-links"><a href="">Payments</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col16">
+              <div class="ftr-list4">
+                <div class="list-hdr">Recources</div>
+                <ul class="ftr-list">
+                  <li class="ftr-links"><a href="">Free eBooks</a></li>
+                  <li class="ftr-links"><a href="">Development Tutorial</a></li>
+                  <li class="ftr-links"><a href="">How to - Blog</a></li>
+                  <li class="ftr-links"><a href="">Youtube Playlist </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ftr-btm d-flex">
+          <div class="copyright-sec">
+            Shop.co © 2000-2023, All Rights Reserved
+          </div>
+          <ul class="payment-list d-flex ms-auto">
+            <li class="payment-links">
+              <a href=""><img src="./Assets/Badge.png" alt="" /></a>
+            </li>
+            <li class="payment-links">
+              <a href=""><img src="./Assets/Badge (1).png" alt="" /></a>
+            </li>
+            <li class="payment-links">
+              <a href=""><img src="./Assets/Badge (2).png" alt="" /></a>
+            </li>
+            <li class="payment-links">
+              <a href=""><img src="./Assets/Badge (3).png" alt="" /></a>
+            </li>
+            <li class="payment-links">
+              <a href=""><img src="./Assets/Badge (4).png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Vanilla js -->
+    <script src="./Script/script.js"></script>
+  </body>
+</html>
