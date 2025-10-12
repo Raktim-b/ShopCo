@@ -29,7 +29,7 @@ const topSwiper = new Swiper(".top-swipper", {
     el: ".top-pegination",
   },
   navigation: {
-    nextEl: " .top-swiper-button-next",
+    nextEl: ".top-swiper-button-next",
     prevEl: ".top-swiper-button-prev",
   },
   breakpoints: {
