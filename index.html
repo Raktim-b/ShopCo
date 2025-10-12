@@ -12,14 +12,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Bootstrap Css -->
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <!-- Vanilla Css -->
+    <!-- Vanilla CSS -->
     <link rel="stylesheet" href="./Style/style.css" />
   </head>
   <body>
@@ -223,12 +228,18 @@
           <div class="news-hdr text-center">
             <h2 class="title2">NEW ARRIVALS</h2>
           </div>
-          <div class="new-cntn">
-            <div class="row">
-              <div class="col-12 col-sm-6 col-lg-3">
+          <!-- Slider main container -->
+          <div class="swiper new-swipper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/New-Arrival-img1.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">T-shirt with Tape Details</h3>
                   <ul>
@@ -242,10 +253,13 @@
                   <div class="price">$120</div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/New-Arrival-img2.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">Skinny Fit Jeans</h3>
                   <ul>
@@ -268,10 +282,13 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/New-Arrival-img3.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">Checkred Shirt</h3>
                   <ul>
@@ -285,10 +302,13 @@
                   <div class="price">$180</div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/New-Arrival-img4.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">T-shirt with Tape Details</h3>
                   <ul>
@@ -312,10 +332,121 @@
                   </div>
                 </div>
               </div>
-              <div class="new-btn">
-                <a href="" class="btn-secondary">View All</a>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img2.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Skinny Fit Jeans</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span class="rating">3.5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $240
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$260</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-20%</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img3.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Checkred Shirt</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price">$180</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img4.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">T-shirt with Tape Details</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $130
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$160</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-30%</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/New-Arrival-img2.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Skinny Fit Jeans</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span class="rating">3.5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $240
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$260</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-20%</span
+                    >
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev text-black"></div>
+            <div class="swiper-button-next text-black"></div>
           </div>
         </div>
       </section>
@@ -325,12 +456,18 @@
           <div class="top-hdr text-center">
             <h2 class="title2">TOP SELLING</h2>
           </div>
-          <div class="new-cntn">
-            <div class="row">
-              <div class="col-12 col-sm-6 col-lg-3">
+          <!-- Slider main container -->
+          <div class="swiper top-swipper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/Top-selling-img1.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">Vertical Striped Shirt</h3>
                   <ul>
@@ -354,10 +491,13 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/Top-selling-img2.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">Courage Graphic T-Shirt</h3>
                   <ul>
@@ -370,10 +510,13 @@
                   <div class="price">$145</div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/Top-selling-img3.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">Loose Fit Bermuda Shorts</h3>
                   <ul>
@@ -386,10 +529,13 @@
                   <div class="price">$80</div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="swiper-slide">
                 <div class="card">
                   <figure class="card-img">
                     <img src="./Assets/Top-selling-img4.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
                   </figure>
                   <h3 class="title3">Faded Skinny Jeans</h3>
                   <ul>
@@ -403,10 +549,104 @@
                   <div class="price">$210</div>
                 </div>
               </div>
-              <div class="new-btn">
-                <a href="" class="btn-secondary">View All</a>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img1.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Vertical Striped Shirt</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <span>5/5</span>
+                  </ul>
+                  <div class="price d-flex align-items-center">
+                    $212
+                    <span
+                      class="disabled-price text-decoration-line-through text-black-50"
+                      >$232</span
+                    >
+                    <span
+                      class="discount bg-danger-subtle text-danger rounded-pill"
+                      >-20%</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img2.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Courage Graphic T-Shirt</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <span class="rating">4/5</span>
+                  </ul>
+                  <div class="price">$145</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img3.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Loose Fit Bermuda Shorts</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+
+                    <span>3/5</span>
+                  </ul>
+                  <div class="price">$80</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <figure class="card-img">
+                    <img src="./Assets/Top-selling-img4.png" alt="" />
+                    <button class="heart-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </figure>
+                  <h3 class="title3">Faded Skinny Jeans</h3>
+                  <ul>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Half-star.png" alt="" /></li>
+                    <span>4.5/5</span>
+                  </ul>
+                  <div class="price">$210</div>
+                </div>
               </div>
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination top-pegination"></div>
+            <!-- If we need navigation buttons -->
+            <div
+              class="swiper-button-prev top-swiper-button-prev text-black"
+            ></div>
+            <div
+              class="swiper-button-next top-swiper-button-next text-black"
+            ></div>
           </div>
         </div>
       </section>
@@ -442,75 +682,214 @@
           <div class="custom-hdr">
             <h2 class="title2">OUR HAPPY CUSTOMERS</h2>
           </div>
-          <div class="row custom-row">
-            <div class="col-12 col-sm-6 col-md-4">
-              <div class="custom-card">
-                <ul class="d-flex gap-1">
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                </ul>
-                <h3 class="title3">
-                  Sarah M.
-                  <span class="green-tick"
-                    ><img src="./Assets/Green-tick.png" alt=""
-                  /></span>
-                </h3>
-                <p>
-                  "I'm blown away by the quality and style of the clothes I
-                  received from Shop.co. From casual wear to elegant dresses,
-                  every piece I've bought has exceeded my expectations.”
-                </p>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="custom-card">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    Sarah M.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "I'm blown away by the quality and style of the clothes I
+                    received from Shop.co. From casual wear to elegant dresses,
+                    every piece I've bought has exceeded my expectations.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card d-block w-100">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    Alex K.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "Finding clothes that align with my personal style used to
+                    be a challenge until I discovered Shop.co. The range of
+                    options they offer is truly remarkable, catering to a
+                    variety of tastes and occasions.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card d-block w-100">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    James L.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "As someone who's always on the lookout for unique fashion
+                    pieces, I'm thrilled to have stumbled upon Shop.co. The
+                    selection of clothes is not only diverse but also on-point
+                    with the latest trends.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    Sarah M.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "I'm blown away by the quality and style of the clothes I
+                    received from Shop.co. From casual wear to elegant dresses,
+                    every piece I've bought has exceeded my expectations.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card d-block w-100">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    Alex K.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "Finding clothes that align with my personal style used to
+                    be a challenge until I discovered Shop.co. The range of
+                    options they offer is truly remarkable, catering to a
+                    variety of tastes and occasions.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card d-block w-100">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    James L.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "As someone who's always on the lookout for unique fashion
+                    pieces, I'm thrilled to have stumbled upon Shop.co. The
+                    selection of clothes is not only diverse but also on-point
+                    with the latest trends.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    Sarah M.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "I'm blown away by the quality and style of the clothes I
+                    received from Shop.co. From casual wear to elegant dresses,
+                    every piece I've bought has exceeded my expectations.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card d-block w-100">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    Alex K.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "Finding clothes that align with my personal style used to
+                    be a challenge until I discovered Shop.co. The range of
+                    options they offer is truly remarkable, catering to a
+                    variety of tastes and occasions.”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="custom-card d-block w-100">
+                  <ul class="d-flex gap-1">
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                    <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
+                  </ul>
+                  <h3 class="title3">
+                    James L.
+                    <span class="green-tick"
+                      ><img src="./Assets/Green-tick.png" alt=""
+                    /></span>
+                  </h3>
+                  <p>
+                    "As someone who's always on the lookout for unique fashion
+                    pieces, I'm thrilled to have stumbled upon Shop.co. The
+                    selection of clothes is not only diverse but also on-point
+                    with the latest trends.”
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <div class="custom-card d-block w-100">
-                <ul class="d-flex gap-1">
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                </ul>
-                <h3 class="title3">
-                  Alex K.
-                  <span class="green-tick"
-                    ><img src="./Assets/Green-tick.png" alt=""
-                  /></span>
-                </h3>
-                <p>
-                  "Finding clothes that align with my personal style used to be
-                  a challenge until I discovered Shop.co. The range of options
-                  they offer is truly remarkable, catering to a variety of
-                  tastes and occasions.”
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <div class="custom-card d-block w-100">
-                <ul class="d-flex gap-1">
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                  <li><img src="./Assets/Gold-Full-satr.png" alt="" /></li>
-                </ul>
-                <h3 class="title3">
-                  James L.
-                  <span class="green-tick"
-                    ><img src="./Assets/Green-tick.png" alt=""
-                  /></span>
-                </h3>
-                <p>
-                  "As someone who's always on the lookout for unique fashion
-                  pieces, I'm thrilled to have stumbled upon Shop.co. The
-                  selection of clothes is not only diverse but also on-point
-                  with the latest trends.”
-                </p>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
           <div class="offer-wrpr d-flex">
             <div class="offer-cntn">STAY UPTO DATE ABOUT OUR LATEST OFFERS</div>
@@ -654,13 +1033,15 @@
         </div>
       </div>
     </footer>
-    <!-- Bootstrap Js -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <!-- Vanilla js -->
+    <!-- Vanilla JS -->
     <script src="./Script/script.js"></script>
   </body>
 </html>
