@@ -179,8 +179,8 @@ nav {
 }
 /* Banner Section */
 .banner-sec {
-  padding: 20px 0;
-  min-height: 100vh;
+  padding: 103px 0 116px;
+  /* min-height: 100vh; */
   display: flex;
   align-items: center;
   background: url(../Assets/Banner-bg.png) no-repeat center/cover;
@@ -676,6 +676,11 @@ nav {
   .nav-icons {
     display: none;
   }
+  /* Banner Section */
+
+  .star-wrpr {
+    display: none;
+  }
   /* New Arrival Section */
   .swiper-button-prev {
     left: var(--swiper-navigation-sides-offset, -10px) !important;
@@ -697,9 +702,8 @@ nav {
     width: 33.33%;
   }
   /* Banner Section */
-
-  .star-wrpr {
-    display: none;
+  .banner-cntn {
+    max-width: 100%;
   }
   /* Customer Section */
   .offer-wrpr {
@@ -738,6 +742,33 @@ nav {
   .col25,
   .col16 {
     width: 50%;
+  }
+  .title1 {
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .title2 {
+    font-size: 40px;
+    line-height: 10px;
+  }
+  /* Banner Section */
+  .banner-sec {
+    padding: 70px 0;
+  }
+  .banner-cntn > p {
+    max-width: 545px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-block: 16px;
+  }
+  .stats-list {
+    margin-top: 30px;
+  }
+  .stat-number {
+    font-size: 30px;
+  }
+  .stat-item {
+    margin-right: 20px;
   }
   /* Ad Section */
   .marquee__group > img {
@@ -788,8 +819,8 @@ nav {
   }
   .title1 {
     letter-spacing: -3px;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 44px;
   }
   .title2 {
     letter-spacing: -1px;
@@ -800,18 +831,21 @@ nav {
     font-size: 16px;
   }
   /* Header Section */
+  nav {
+    padding: 18px 0 !important;
+  }
   .hdr-top > p {
     font-size: 12px;
   }
   /* Banner Section */
-  .banner-cntn {
-    max-width: 100%;
+  .banner-sec {
+    padding: 35px 0;
   }
   .banner-cntn > p {
     max-width: 100%;
     line-height: 16px;
     font-size: 12px;
-    margin-block: 10px;
+    margin-block: 10px 20px;
   }
   .banner-btn > .btn-primary {
     padding: 13px 33.5px;
